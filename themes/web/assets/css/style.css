@@ -139,7 +139,8 @@ body {
 
 #home-live-preview{
     background-color: #EEEEEE;
-    padding-top: 50px;
+    padding: 50px 0px 50px 0px;
+    /* padding-bottom: 50px; */
 }
 
 #iframe-more{
@@ -207,6 +208,35 @@ body {
     color: #303F9F;
     border: #303F9F 1px solid;
     background-color: #fff;
+}
+
+#customer-opinion{
+    margin: 0 70px 0 70px;
+    padding-top: 55px;
+    height: 300px;
+    
+}
+
+#customer-opinion-title>h3{
+    color: #3F51B5;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+#customer-opinion-title::after{
+    content: "";
+    height: 2px;
+    color: #303F9F;
+    width: 250px;
+    background-color: #303F9F;
+    display: block;
+    margin: 10px auto 50px;
+}
+
+#customer-opinion-images{
+    border: 1px solid #3F51B5;
+    display: flex;
 }
 
 /* #home-live-preview>div{

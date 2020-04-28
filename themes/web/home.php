@@ -38,7 +38,7 @@
         </div>
         <div class="row">
             <div class="col-sm-12 col-md-6 col-lg-6">
-                <h2 id="home-optin-title" class="font-weight-bold">Cadastre-se agora e conheça</h2>
+                <h2 id="home-optin-title" class="font-weight-bold"> Faça agora seu cadastro e comece a vender seus produtos online agora mesmo!</h2>
                 <p id="">
                     Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ad veritatis officia
                     distinctio fugiat cum. Incidunt, perferendis quas excepturi magnam recusandae perspiciatis eveniet minus.
@@ -72,3 +72,12 @@
         </div>
     </div>
 </article>
+<section id="customer-opinion">
+    <div id="customer-opinion-title">
+       <h3>O que alguns feirantes estão dizendo sobre o MarketLive?</h3>
+    </div>
+    <div id="customer-opinion-images">
+       <img src="https://picsum.photos/250/300?random=1" alt=""> 
+       <h5>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed molestiae voluptatem laboriosam doloribus quaerat</h5>
+    </div>
+</section>
