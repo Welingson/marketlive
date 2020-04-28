@@ -1,0 +1,16 @@
+{
+  "name": "marketlive",
+  "version": "1.0.0",
+  "description": "Projeto feira online",
+  "main": "index.js",
+  "dependencies": {
+    "bootstrap": "^4.4.1",
+    "jquery": "^3.5.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Welingson E. Santos",
+  "license": "MIT"
+}
