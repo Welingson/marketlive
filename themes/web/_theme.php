@@ -5,12 +5,10 @@
 
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-
     <?= $head ?>
     <link rel="stylesheet" href="<?= theme("/assets/style.css"); ?>">
     <script src="https://kit.fontawesome.com/d7c3507a38.js" crossorigin="anonymous"></script>
 </head>
-
 <body>
     <nav class="nav-menu">
         <div id="nav">
@@ -24,7 +22,6 @@
                 <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
                     <a class="dropdown-item" href="#"><i class="fas fa-user-alt mr-2"></i>Sou cliente</a>
                     <a class="dropdown-item" href="#"><i class="fas fa-leaf mr-2"></i>Sou feirante</a>
-                    <!-- <a class="dropdown-item" href="#"></a> -->
                 </div>
             </div>
         </div>
