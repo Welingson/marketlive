@@ -280,12 +280,21 @@ body {
 }
 
 #optin-footer>div>i{
-    
     font-size: 5em;
     color: #303F9F;
+    
+}
+
+#optin-footer>div>a:hover{
+    background-color: #fff;
+    border: #303F9F 1px solid;
+    color: #303F9F;
+    
+    /* border-radius: 5px; */
 }
 
 #optin-footer>div>h2{
+    margin-bottom: 15px;
     font-size: 2em;
     font-weight: 900;
     color: #3F51B5;
@@ -296,4 +305,76 @@ body {
     font-size: 25px;
     color: white;
     font-weight: bold;
+}
+
+footer{
+    background-color: #EEEEEE;
+    height: 360px;
+}
+
+#footer-content{
+    background-color: #EEEEEE;
+}
+
+#footer-content>div{
+    background-color: #EEEEEE;
+}
+
+#footer-content>div>h2{
+    font-weight: bold;
+    font-size: 20px;
+}
+
+#footer-content>div>h2:after{
+    content: "";
+    height: 1px;
+    color: #303F9F;
+    width: 100%;
+    background-color: #303F9F;
+    display: block;
+    margin: 10px 0 10px 0;
+}
+
+#footer-content>div>a{
+    color: #303F9F;
+    font-weight: bold;
+    
+}
+
+#footer-content>div>ul{
+    list-style: none;
+}
+
+#footer-content>div>p{
+    font-size: 0.875em;
+}
+
+#footer-content>div>p>i{
+    color: #3F51B5;
+}
+
+#footer-content>div>ul>li>a{
+    color: #303F9F;
+    font-weight: bold;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    text-decoration: none;
+}
+
+#footer-content>div>ul>li>a:hover{
+    color: #3F51B5;
+}
+
+.footer-contact-title{
+    font-weight: bold;
+    margin: unset;
+}
+
+#footer-content>div>ul>li>a>i{
+    font-size: 25px !important;
+}
+
+#list-social>li>a{
+    margin: 10px;
 }
