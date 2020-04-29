@@ -212,8 +212,8 @@ body {
 
 #customer-opinion{
     margin: 0 70px 0 70px;
-    padding-top: 55px;
-    height: 300px;
+    padding: 60px 0 60px 0;
+    height: 500px;
     
 }
 
@@ -234,13 +234,66 @@ body {
     margin: 10px auto 50px;
 }
 
-#customer-opinion-images{
-    border: 1px solid #3F51B5;
-    display: flex;
-}
 
 /* #home-live-preview>div{
     display: flex;
     justify-content: space-evenly;
 
 } */
+
+/* Center align the text within the three columns below the carousel */
+/* .marketing .col-lg-4 {
+    margin-bottom: 1.5rem;
+    text-align: center;
+  }
+  .marketing h2 {
+    font-weight: 400;
+  }
+  .marketing .col-lg-4 p {
+    margin-right: .75rem;
+    margin-left: .75rem;
+  } */
+
+
+.customer-opinion-client{
+    text-align: center;
+}
+
+
+#optin-footer{
+    padding: 60px 0 60px 0;
+    background-color: #EEEEEE;
+    display: flex;
+    justify-content: center;
+
+    /* height: 300px; */
+    /* display: ; */
+    /* text-align: center; */
+
+   
+}
+
+#optin-footer>div{
+    width: 500px;
+    text-align: center;
+    
+}
+
+#optin-footer>div>i{
+    
+    font-size: 5em;
+    color: #303F9F;
+}
+
+#optin-footer>div>h2{
+    font-size: 2em;
+    font-weight: 900;
+    color: #3F51B5;
+}
+
+#optin-footer>div>a{
+    background-color: #3F51B5;
+    font-size: 25px;
+    color: white;
+    font-weight: bold;
+}

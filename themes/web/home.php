@@ -74,10 +74,32 @@
 </article>
 <section id="customer-opinion">
     <div id="customer-opinion-title">
-       <h3>O que alguns feirantes estão dizendo sobre o MarketLive?</h3>
+        <h3>O que alguns feirantes estão dizendo sobre o MarketLive?</h3>
     </div>
-    <div id="customer-opinion-images">
-       <img src="https://picsum.photos/250/300?random=1" alt=""> 
-       <h5>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed molestiae voluptatem laboriosam doloribus quaerat</h5>
+    <div class="container customer-opinion-client">
+        <div class="row">
+            <div class="col-sm-12 col-md-4 col-lg-4">
+                <img src="https://picsum.photos/200/200?random=1" class="rounded-circle" alt="">
+                <p class="font-italic py-4">"Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel facere cupiditate et"</p>
+            </div>
+            <div class="col-sm-12 col-md-4 col-lg-4">
+                <img src="https://picsum.photos/200/200?random=2" class="rounded-circle" alt="">
+                <p class="font-italic py-4">"Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel facere cupiditate et"</p>
+            </div>
+            <div class="col-sm-12 col-md-4 col-lg-4">
+                <img src="https://picsum.photos/200/200?random=3" class="rounded-circle" alt="">
+                <p class="font-italic py-4">"Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel facere cupiditate et"</p>
+            </div>
+        </div>
     </div>
+</section>
+<section id="optin-footer">
+    <div>
+        <i class="far fa-play-circle"></i>
+        <h2>Comece sua live agora mesmo!</h2>
+        <a href="" class="btn"><i class="fas fa-play mr-2"></i>Fazer live!</a>
+    </div>
+
+
+
 </section>
