@@ -27,4 +27,23 @@ class Web extends Controller
             "head" => $head
         ]);
     }
+
+    public function about(array $data): void
+    {
+
+        $head = $this->seo->render(
+            CONF_SITE_TITLE,
+            CONF_SITE_DESC,
+            url(),
+            theme("/assets/images/share.jpg")
+        );
+
+
+        echo $this->view->render("about", [
+            "head" => $head
+        ]);
+
+
+        
+    }
 }

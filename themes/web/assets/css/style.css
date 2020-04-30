@@ -27,7 +27,6 @@ body {
     justify-content: space-between !important;
     align-items: center;
     
-    
 }
 
 #nav>#logo{
@@ -140,7 +139,7 @@ body {
 #home-live-preview{
     background-color: #EEEEEE;
     padding: 50px 0px 50px 0px;
-    /* padding-bottom: 50px; */
+    
 }
 
 #iframe-more{
@@ -166,17 +165,90 @@ body {
 
 }
 
-#iframe{
+#iframes{
     display: flex;
     justify-content: space-evenly;
-    margin-bottom: 50px;
-    height: 250px;
+    flex-wrap: wrap;
+    /* margin-bottom: 100px; */
+    height: 550px;
 }
 
-#iframe>iframe{
-    width: 300px;
+/* #iframes>div{
+    height: 220px;
+} */
+
+#iframe-content{
+
+    border-radius: 5px;
+    /* border: ; */
+    background-color: #3F51B5;
+    height: 232px;
+    margin: 10px;
+}
+
+#iframe-content-video>iframe{
+    border-radius: 5px 5px 0 0; 
     height: 170px;
 }
+
+#iframe-content-user{
+    margin: 0 10px 0 10px;
+    padding: unset;
+    /* background-color: #37474F; */
+}
+
+#iframe-content-user>div>p{
+    margin: 0 0 0 8px;
+    font-weight: bold;
+    color: #fff;
+}
+
+#iframe-content-user>a{
+    width: 75px;
+    padding: unset;
+    font-weight: bold;
+    background-color: #fff;
+    color: #3F51B5;
+    pointer-events: all;
+    cursor: pointer;
+}
+
+/* O IFRAME */
+
+/* #iframe>div>div>iframe{
+    width: 300px;
+    height: 200;
+    border-radius: 5px;
+    margin: unset;
+} */
+
+/* cada cartao de contem o iframe */
+/* #iframe>div{
+    margin: 20px;
+    border: 1px solid #3F51B5;
+    border-radius: 5px;
+} */
+
+/* #iframe>div>div{
+    height: 55px;
+    background-color: #37474F;
+}
+
+#iframe>div>div>div>p{
+    margin: 0 0 0 7px;
+
+}
+
+
+
+#iframe>div>div>a{
+    font-weight: bold;
+    width: 70px;
+    height: 30px;
+    padding: 0 12px 0 12px;
+    text-align: center;
+    
+} */
 
 #home-optin-title{
     color: #303F9F;
@@ -210,6 +282,8 @@ body {
     background-color: #fff;
 }
 
+/* OPINIÃO DOS CLIENTES */
+
 #customer-opinion{
     margin: 0 70px 0 70px;
     padding: 60px 0 60px 0;
@@ -235,30 +309,11 @@ body {
 }
 
 
-/* #home-live-preview>div{
-    display: flex;
-    justify-content: space-evenly;
-
-} */
-
-/* Center align the text within the three columns below the carousel */
-/* .marketing .col-lg-4 {
-    margin-bottom: 1.5rem;
-    text-align: center;
-  }
-  .marketing h2 {
-    font-weight: 400;
-  }
-  .marketing .col-lg-4 p {
-    margin-right: .75rem;
-    margin-left: .75rem;
-  } */
-
-
 .customer-opinion-client{
     text-align: center;
 }
 
+/* RODAPÉ */
 
 #optin-footer{
     padding: 60px 0 60px 0;
@@ -377,4 +432,147 @@ footer{
 
 #list-social>li>a{
     margin: 10px;
+}
+
+
+/* ABOUT */
+
+#about{
+    height: 2250px;
+    text-align: center;
+    justify-content: center;
+}
+
+#about-content-title{
+    margin: 70px 0 70px 0;
+
+}
+
+#about-content-title>h1{
+    color: #37474F;
+}
+
+#about-content-list{
+    display: flex;
+    margin: 60px 0 60px 0;
+}
+
+#about-content-list>div>i{
+    color: #3F51B5;
+    font-size: 70px;
+    margin-bottom: 17px;
+}
+
+#about-content-list>div>h3{
+    font-weight: 700;
+    color: #37474F;
+}
+
+#about-content-list>div>p{
+    font-style: italic;
+}
+
+#about-content-iframe>iframe{
+    width: 820px;
+    height: 500px;
+    border-radius: 7px;
+    margin-bottom: -250px;
+}
+
+#about-content-optin{
+    display: flex;
+    justify-content: center;
+    background-color: #3F51B5;
+    align-items: center;
+    height: 650px;
+    /* margin: ; */
+}
+
+
+#about-content-optin>div{
+    margin-top: 200px;
+    width: 600px;
+    
+    
+}
+
+#about-content-optin>div>h2{
+    color: #fff;
+    font-weight: bold;
+
+}
+
+#about-content-optin>div>#about-content-optin-title,
+#about-content-optin-desc{
+    color: #fff;
+    font-weight: bold;
+}
+
+#about-content-optin>div>a{
+    font-size: 25px;
+    font-weight: bold;
+    color: #fff;
+    background-color:#303F9F;
+    width: 250px;
+}
+
+#about-content-optin>div>a:hover{
+    color: #303F9F;
+    background-color: #fff;
+    /* border: 1px solid #303F9F; */
+}
+
+#about-content-faq{
+    margin-top: 70px;
+    margin-bottom: 45px;
+    
+
+}
+
+#about-content-faq>div>i{
+    font-size: 85px;
+    color: #303F9F;
+}
+
+#about-content-faq>div>h3{
+    margin-top: 20px;
+    font-size: 35px;
+    color: #37474F;
+    
+}
+
+.faqs {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    justify-content: center;
+    margin: 0 80px 0 80px;
+
+}
+
+.faq {
+    flex-basis: calc(50% - 30px);
+    cursor: pointer;
+    padding: 20px;
+    margin: 15px;
+    border: 1px solid #cccccc;
+    border-bottom: 3px solid #3F51B5;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    border-radius: 10px;
+}
+
+.faq h4 {
+    font-size: 1.2rem;
+    font-weight: 700;
+    color: #37474F;
+}
+
+
+.faq a:hover {
+    text-decoration: underline;
+}
+
+.faq_coll {
+    display: none;
 }
