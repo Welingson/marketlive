@@ -19,8 +19,34 @@ $route->namespace("Source\App");
  * SITE ROUTES
  */
 
+/**
+ * HOME
+ */
 $route->group(null);
 $route->get("/", "Web:home");
+
+
+/**
+ * ABOUT
+ */
+
+ $route->group(null);
+ $route->get("/sobre", "Web:about");
+
+
+/**
+ * MARKET LIVE
+ */
+
+ $route->group("feiras-ao-vivo");
+ $route->get("/", "Web:marketLive");
+ $route->get("/{nameMarketer}", "Web:marketerLive");
+
+
+ 
+/**
+ * LIVE FEIRANTE
+ */
 
 
 

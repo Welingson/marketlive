@@ -28,6 +28,43 @@ class Web extends Controller
         ]);
     }
 
+
+    public function marketLive(array $data): void
+    {
+
+        $head = $this->seo->render(
+            CONF_SITE_TITLE,
+            CONF_SITE_DESC,
+            url(),
+            theme("/assets/images/share.jpg")
+        );
+
+
+        echo $this->view->render("lives", [
+            "head" => $head
+        ]);
+        
+    }
+
+
+    public function marketerLive(Array $data): void
+    {
+        
+        
+
+        $head = $this->seo->render(
+            CONF_SITE_TITLE,
+            CONF_SITE_DESC,
+            url(),
+            theme("/assets/images/share.jpg")
+        );
+
+
+        echo $this->view->render("marketer-live", [
+            "head" => $head
+        ]);
+    }
+
     public function about(array $data): void
     {
 
@@ -43,7 +80,5 @@ class Web extends Controller
             "head" => $head
         ]);
 
-
-        
     }
 }

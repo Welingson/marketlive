@@ -79,13 +79,7 @@
             </article>
         </div>
     </section>
-    <section id="optin-footer">
-        <div>
-            <i class="far fa-play-circle"></i>
-            <h2>Comece sua live agora mesmo!</h2>
-            <a href="" class="btn"><i class="fas fa-play mr-2"></i>Fazer live!</a>
-        </div>
-    </section>
+
 </section>
 
 

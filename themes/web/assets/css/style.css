@@ -142,6 +142,8 @@ body {
     
 }
 
+/* IFRAMES */
+
 #iframe-more{
     display: flex;
     justify-content: space-evenly;
@@ -169,18 +171,12 @@ body {
     display: flex;
     justify-content: space-evenly;
     flex-wrap: wrap;
-    /* margin-bottom: 100px; */
-    height: 550px;
+    height: 600px;
 }
 
-/* #iframes>div{
-    height: 220px;
-} */
 
 #iframe-content{
-
     border-radius: 5px;
-    /* border: ; */
     background-color: #3F51B5;
     height: 232px;
     margin: 10px;
@@ -194,6 +190,9 @@ body {
 #iframe-content-user{
     margin: 0 10px 0 10px;
     padding: unset;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
     /* background-color: #37474F; */
 }
 
@@ -213,42 +212,6 @@ body {
     cursor: pointer;
 }
 
-/* O IFRAME */
-
-/* #iframe>div>div>iframe{
-    width: 300px;
-    height: 200;
-    border-radius: 5px;
-    margin: unset;
-} */
-
-/* cada cartao de contem o iframe */
-/* #iframe>div{
-    margin: 20px;
-    border: 1px solid #3F51B5;
-    border-radius: 5px;
-} */
-
-/* #iframe>div>div{
-    height: 55px;
-    background-color: #37474F;
-}
-
-#iframe>div>div>div>p{
-    margin: 0 0 0 7px;
-
-}
-
-
-
-#iframe>div>div>a{
-    font-weight: bold;
-    width: 70px;
-    height: 30px;
-    padding: 0 12px 0 12px;
-    text-align: center;
-    
-} */
 
 #home-optin-title{
     color: #303F9F;
@@ -438,7 +401,7 @@ footer{
 /* ABOUT */
 
 #about{
-    height: 2250px;
+    height: 2000px;
     text-align: center;
     justify-content: center;
 }
@@ -575,4 +538,96 @@ footer{
 
 .faq_coll {
     display: none;
+}
+
+
+/* LIVES */
+
+#live{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #3F51B5;
+    
+}
+
+#live-form{
+    margin-top: 100px;
+    text-align: center;
+    width: 700px;
+    height: 220px;
+}
+
+#live-form>div>h1{
+    color: #fff;
+    font-weight: bold;
+}
+
+#live-form>div>p{
+    color: #fff;
+    font-weight: bold;
+}
+
+#live-form>form>button{
+    background-color: #fff;
+    color: #303F9F;
+    font-weight: bold;
+}
+
+#live-market{
+    margin-top: 40px;
+}
+
+
+/* LIVE MARKETER */
+
+#live-marketer{
+    height: 400px;
+    background-color: #3F51B5;
+    display: flex;
+    justify-content: center;    
+    margin-bottom: 300px;
+
+}
+
+#iframe-marketer-content{
+    
+    background-color: #4CAF50;
+    width: 860px;
+    height: 550px;
+    margin: 10px;
+    border-radius: 5px;
+    border-bottom: 5px solid #2E7D32;
+    margin-top: 150px;
+   
+}
+
+#iframe-marketer-content-video>iframe{
+    border-radius: 5px 5px 0 0; 
+    width: 860px;
+    height: 480px;
+}
+
+#iframe-content-marketer{
+    margin: 0 10px 0 10px;
+    padding: unset;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+
+#iframe-content-marketer>div>p{
+    margin: 0 0 0 8px;
+    font-weight: bold;
+    color: #fff;
+}
+
+#iframe-content-marketer>p{
+
+    margin: unset;
+    font-weight: bold;
+    color: #ffffff;
+    border-radius: 5px;
+
 }
